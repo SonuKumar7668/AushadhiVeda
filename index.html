@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aushadhi Veda</title>
+</head>
+<style>
+    body{
+        background-image: url(/img/homepage.jpg);
+    }
+    .heads{
+        /* width: 50%; */
+        display: flex;
+        justify-content: end;
+        justify-content: space-around;
+        margin-left: 50%;
+        position: relative;
+        right: 0px;
+        
+    }
+    .dot{
+        margin-top: 17px;
+        width: 20px;
+        height: 15px;
+    }
+    #search{
+        border: none;
+        width: 80%;
+        height: 30px;
+    }
+    .line{
+        height: 30px;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+    .line2{
+        margin: 10px;
+        /* background-color: white; */
+        /* padding: 20px; */
+    }
+    a{
+        display: inline;
+        color: black;
+        text-decoration: none;
+    }
+    /* main */
+    .text{
+        text-shadow: 0 0 10px #444, 0 0 10px #555;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    main{
+        margin-top: 80px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .cont{
+        margin: 20px;
+        width: 30%;
+    }
+    .img{
+        padding-bottom: 5%;
+        width: 100%;
+        transition-property: all;
+        transition-duration: 0.5s;
+    }
+    .img:hover{
+        padding-top: 5%;
+    }
+    .more{
+        height: 50px;
+        text-align: end;
+        color: red;
+        /* text-shadow: 0 0 10px #444, 0 0 10px #555; */
+    }
+</style>
+<body>
+    <header>
+        <div class="heads">
+            <p> <a href="#">Home</a></p>
+            <p> <a href="#">Ayurveda</a></p>
+            <p> <a href="#">Yoga</a></p>
+            <p> <a href="#">Unani</a></p>
+            <img class="dot" src="/img/menu-burger.png" alt="dots">
+        </div>
+        <div class="heads line" >
+            <input type="search" placeholder="Search" id="search">
+            <a href="#"><img class="dot line2" src="/img/microphone-black-shape.png" alt="..."></a>
+            <a href="#"><img class="dot line2" src="/img/photo-camera-interface-symbol-for-button.png" alt="..."></a>
+        </div>
+    </header>
+    <main>
+        <div class="text">
+            <h2>"Welcome to Aushadi Veda:Digital Gateway to Herbal Wisdom"</h2>
+            <p>"To create an accessible, immersive platform that bridges the gap between</p>
+            <p>traditional herbal knowledge and modern technology ,empowering</p>
+            <p> individual and communities to explore,learn and harness the benefits of </p>
+            <p>medicinal plants from teh comfort of their homes."</p>
+        </div>
+        <div class="card">
+            <a href="/tulsi.html" class="cont"><img src="/img/tulsi.jpg" alt="..." class="img" ></a>
+            <a href="#" class="cont"><img src="/img/yoga.jpg" alt="" class="img"></a>
+            <a href="#" class="cont"><img src="/img/aushadhi.jpg" alt="" class="img"></a>
+        </div>
+        <div class="more">
+            <p><a style="color: red;" href="#"><b>Learn more</b></a></p>
+        </div>
+    </main>
+</body>
+</html>
